@@ -17,7 +17,6 @@ outline.style.strokeDasharray = outlineLength;
 timeDisplay.textContent = `${Math.floor(fakeDuration / 60)}:${Math.floor(
   fakeDuration % 60
 )}`;
-
 sounds.forEach(sound => {
   sound.addEventListener("click", function() {
     song.src = this.getAttribute("data-sound");
@@ -34,7 +33,6 @@ replay.addEventListener("click", function() {
     restartSong(song);
     
   });
-
 
 const restartSong = song =>{
     let currentTime = song.currentTime;
