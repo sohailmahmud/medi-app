@@ -1,2 +1,2 @@
-# meditationApp
-Mindfulness meditation app JavaScript 
+# mediApp
+Mindfulness medi app JavaScript 
