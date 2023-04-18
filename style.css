@@ -65,7 +65,6 @@
   flex-direction: column;
   flex: 1;
 }
-
 .player-container svg {
   position: absolute;
   height: 50%;
